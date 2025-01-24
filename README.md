@@ -21,3 +21,16 @@ Python 3.8+ required. No dependencies needed.
 ```bash
 # Download directly
 curl -O https://raw.githubusercontent.com/yourusername/flattener/main/flatten.py
+```
+
+## .flattenignore Format
+Create a file with gitignore-style patterns:
+
+gitignore
+```
+# Example .flattenignore
+*.log
+/test_data/
+temp/
+*.secret
+```
